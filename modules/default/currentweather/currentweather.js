@@ -11,9 +11,9 @@ Module.register("currentweather",{
 
 	// Default module config.
 	defaults: {
-		location: false,
-		locationID: false,
-		appid: "",
+		location: "Peoria",
+		locationID: "4905687",
+		appid: "1a81c290925f4fbea7dc8394c44b2fd0",
 		units: config.units,
 		updateInterval: 10 * 60 * 1000, // every 10 minutes
 		animationSpeed: 1000,

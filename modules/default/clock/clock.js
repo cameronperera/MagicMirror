@@ -11,13 +11,14 @@ Module.register("clock",{
 		displayType: "digital", // options: digital, analog, both
 
 		timeFormat: config.timeFormat,
-		displaySeconds: true,
+		displaySeconds: false,
 		showPeriod: true,
 		showPeriodUpper: false,
 		clockBold: false,
 		showDate: true,
 		showWeek: false,
 		dateFormat: "dddd, LL",
+		timezone: "America/Chicago",
 
 		/* specific to the analog clock */
 		analogSize: "200px",
@@ -25,7 +26,7 @@ Module.register("clock",{
 		analogPlacement: "bottom", // options: 'top', 'bottom', 'left', 'right'
 		analogShowDate: "top", // options: false, 'top', or 'bottom'
 		secondsColor: "#888888",
-		timezone: null,
+		timezone: "America/Chicago",
 	},
 	// Define required scripts.
 	getScripts: function() {

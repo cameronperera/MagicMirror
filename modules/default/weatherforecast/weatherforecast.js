@@ -12,11 +12,11 @@ Module.register("weatherforecast",{
 	// Default module config.
 	defaults: {
 		location: false,
-		locationID: false,
-		appid: "",
-		units: config.units,
+		locationID: "4905687",
+		appid: "1a81c290925f4fbea7dc8394c44b2fd0",
+		units: imperial,
 		maxNumberOfDays: 7,
-		showRainAmount: false,
+		showRainAmount: true,
 		updateInterval: 10 * 60 * 1000, // every 10 minutes
 		animationSpeed: 1000,
 		timeFormat: config.timeFormat,
