@@ -16,6 +16,11 @@ Module.register("newsfeed",{
 				title: "New York Times",
 				url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
 				encoding: "UTF-8" //ISO-8859-1
+			},
+			{
+				title: "Chicago Tribune",
+				url: "http://www.chicagotribune.com/g00/3_c-8yyy.ejkeciqvtkdwpg.eqo_/c-8OQTGRJGWU46x24jvvrx3ax2fx2fyyy.ejkeciqvtkdwpg.eqox2ftuu4.2.zonx3fk32e.octm.nkpm.varg_$/$",
+				encoding: "UTF-8" //ISO-8859-1
 			}
 		],
 		showSourceTitle: true,
